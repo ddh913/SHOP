@@ -1,0 +1,27 @@
+.famous1{
+  display: block;
+  border: 1px solid #ddd;
+}
+.itemlist{
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+}
+.famous1 ul{
+  width: 4671px;
+  height: 350px;
+  position: absolute;
+
+}
+.famous1 li{
+  display: inline-block;
+
+}
+.famous1 .itemlist .item img{
+  width: 280px;
+
+}
+.item{
+  margin-left: 10px;
+  padding-right: 1px;
+}

@@ -1,0 +1,322 @@
+/*项目顶部css样式*/
+.bisic li,.user li{
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  padding-left: 5px;
+  background: #f0f0Ed;
+}
+.clooect{
+  background: url("../imges/sc.png") no-repeat;
+  width: 15px;
+  height: 14px;
+  display: inline-block;
+
+}
+a:hover .clooect{
+  background: url("../imges/sc1.png") no-repeat;
+}
+/* 表示一个有下拉内容的li */
+.toggleli{
+  position: relative;
+}
+/* 表示一个有下拉内容的a标签 */
+.togglema{
+  display: inline-block;
+  height: 30px;
+  z-index: 1;
+  position: relative;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+
+}
+/* 表示下拉菜单内容的li */
+.togglemenu{
+  display: none;
+  background-color: #f0f0Ed;
+  top: 29px;
+  position: absolute;
+  border: 1px solid #ddd;
+
+}
+.togglemenu a{
+  white-space: nowrap;
+}
+.on .togglemenu{
+  display: block;
+}
+.on .togglema{
+  background: #fff;
+  border-left: 1px solid#ddd;
+  border-right: 1px solid#ddd;
+}
+.togglemenu img{
+  padding-left: 7px;
+}
+/* 顶部三角形 */
+.icon-tri{
+  border:4px solid transparent;
+  border-top-color: #ccc;
+  white: 0px;
+  height: 0px;
+  display: inline-block;
+  top: 10px;
+  right: 15px;
+}
+/*-----------------------------------顶部*/
+.logo {
+  height: 80px;
+}
+.logobox{
+  width: 30%;
+}
+.logobox img{
+  height: 44px;
+  padding-top: 20px;
+}
+.serchbox{
+  width: 50%;
+  height: 80px;
+}
+.serchbox form{
+  width: 480px;
+  height: 40px;
+  border: 2px solid #2bb8aa;
+  margin-top: 20px;
+}
+.serchbox form button{
+  width: 80px;
+  height: 40px;
+  float: right;
+  border: none;
+  background: #2bb8aa;
+  color: #fff;
+}
+.text{
+  height: 40px;
+  width: 351px;
+  border: none;
+}
+.serchbox div p{
+  width: 44px;
+  text-align: center;
+  display: inline-block;
+}
+.serchbox li{
+  float: left;
+  margin-right: 20px;
+}
+.serchbox a{
+  font-size: 10px;
+}
+.logoright{
+  width: 20%;
+  height: 40px;
+}
+.logoright a{
+  float: right;
+  margin-top: 20px;
+}
+.logoright img{
+  display: block;
+}
+.logoright span{
+  font-size: 5px;
+  margin-right: 8px;
+  margin-top: 6px;
+  float: left;
+}
+.nav{
+  height: 520px;
+  margin-top: 12px;
+}
+/**************************************************/
+.navbox{
+  height: 40px;
+  background: #2bb8aa;
+  line-height: 40px;
+}
+.navbox h4{
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+}
+.nav-right li{
+  float: left;
+}
+/* 用于包含多个列表的div */
+.catebox{
+  position: relative;
+}
+.categroy{
+  position: absolute;
+  width: 250px;
+  border-left: 1px solid red;
+  border-bottom: 1px solid red;
+  border: #f9f9f9;
+}
+.ch1{
+  height: 52px;
+  line-height: 52px;
+  border-right: 1px solid #ddd;
+}
+.level1{
+  border: 1px solid #ddd;
+  height: 52px;
+  padding-left: 20px;
+}
+.level2{
+  display: none;
+  white-space: nowrap;
+  height: 469px;
+  left: 250px;
+  top: 0px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  position: absolute; /*它的父级定位元素是categroy*/
+  padding-right: 10px;
+
+}
+.level2 dl{
+  display: inline-block; /*设置两个dl在一行中显示因为dl自带block*/
+  margin-left: 10px;
+}
+.level2 dl dt{
+  height: 52px;
+  line-height: 52px;
+  font-size: 18px;
+}
+.level2 dl dd{
+  height: 25px;
+  line-height: 25px;
+  font-size: 10px;
+}
+.on .level2{
+  display: block;
+}
+
+/*当鼠标获得焦点时
+1.修改背景颜色，同时去掉自己右边框
+2.显示这个级别的内容
+*/
+.on{
+  background: #fff;
+  border-right: 1px solid transparent;
+}
+/*右边导航部分*/
+.nav-right li{
+  margin: 0px 20px;
+}
+.nav-right li a{
+  color: #fff;
+}
+.nvato{
+  width:918px;
+  height: 468px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  float: right;
+  margin-top: -1px;
+  position: relative;
+}
+.nvato img{
+  width:918px;
+  height: 468px;
+  float: right;
+  display: inline-block;
+}
+.nvato a{
+  color: #000;
+}
+#ntbox01{
+  width: 700px;
+  height: 466px;
+  border: 1px solid #ddd;
+  margin-left: 5px;
+  position: relative;
+}
+.left,.right{
+  width: 117px;
+  height: 464px;
+  float: left;
+  border-left: 1px #ddd;
+  border-right: 1px #ddd;
+}
+.center{
+  width: 464px;
+  height: 464px;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+.center img{
+  width: 464px;
+  height: 464px;
+  float: left;
+}
+.nvato ul{
+  float: left;
+}
+.nvato li{
+  line-height: 76px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.left li:last-child, .right li:last-child{
+  border-bottom: none;
+}
+.current {
+  background: #2bb8aa;
+}
+.nvat2 {
+  width: 240px;
+  height: 510px
+  display: inline-block;
+  position: absolute;
+  right: 88px;
+}
+.nvat2top,.nvat2bot{
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.nvat2bot{
+  width: 212px;
+  height: 280px;
+  float: right;
+  margin-right: 0px;
+}
+.nvat2top{
+  width: 212px;
+  height: 186px;
+  float: right;
+  margin-right: 0px;
+
+}
+.nvat2bot img{
+  width: 212px;
+  height: 166px;
+  margin-top: 60px;
+}
+.na1{
+  width: 110px;
+  height: 25px;
+  border: 1px solid #ddd;
+  border-radius:10px;
+  display: inline-block;
+  position: absolute;
+  right: 48px;
+  top: 50px;
+  text-align: center;
+}
+.na2{
+  width: 110px;
+  height: 25px;
+  border: 1px solid #ddd;
+  border-radius:10px;
+  display: inline-block;
+  position: absolute;
+  right: 48px;
+  top: 100px;
+  text-align: center;
+}

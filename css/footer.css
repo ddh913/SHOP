@@ -1,0 +1,101 @@
+/* 底部css样式 */
+
+.links{
+  height: 100px;
+  margin-top: 30px
+}
+.linkstop{
+  height: 35px;
+  background: red;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.links ul.linknav{
+  height: 20px;
+  background: #f9f9f9;
+}
+.links ul.linknav li{
+  float: left;
+  height: 18px;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding:  0 15px;
+  margin-left: -1;
+}
+.links div{
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+}
+.links div a{
+  display: inline-block;
+  margin: 5px 10px;
+}
+.flooter1{
+  height: 160px;
+  padding: 20px 0px;
+}
+.flooter1 dl{
+  float: left;
+  height: 160px;
+  width: 18%;
+}
+.flooter1 dl dd{
+  height: 20px;
+  line-height: 20px;
+}
+.flooter1 dl dt{
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.flooter1 div{
+  display: inline-block;
+  border-left: 1px solid #ddd;
+  float: right;
+  height: 160px;
+  width: 27%; /*此处不要百分28需要留一点空间给boder*/
+}
+.flooter2 img{
+  width: 100px;
+  height: 110px;
+  float: right;
+  margin-right: 170px;
+  display: inline-block;
+  padding-top: 20px;
+}
+.flooter1 a{
+  margin-left: 5px;
+  font-size: 12px;
+}
+.flooter1 p{
+  float: left;
+  margin-left: 55px;
+  padding-top: 10px;
+}
+.to {
+  border-top: 1px solid #ddd;
+  height: 80px;
+  margin-bottom: 20px;
+}
+.t1{
+  width: 40%;
+  float: left;
+  margin-top: 20px;
+  display: inline-block;
+}
+.t2{
+  width: 59%;
+  margin-top: 20px;
+  float: right;
+}
+.t3{
+  float: right;
+}
+.t3 img{
+  margin-top: 5px;
+}
+.t3 p{
+  text-align: right;
+}

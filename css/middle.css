@@ -1,0 +1,100 @@
+.midd {
+  height: 750px;
+  border: 1px solid #ddd;
+  border-radius:5px;
+}
+.item img{
+  width: 260px;
+  height: 155px;
+}
+.item .imgbox{
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+}
+.item .imgbox i{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42;
+  height: 42px;
+  display: inline-block;
+  background: url("../imges/t1.png");
+}
+.item{
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.item .item-info{
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.item-extra{
+  height: 20px;
+  margin-bottom: 10px;
+}
+.item-sale{
+  height: 35px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+.tex-sale{
+  display: inline-block;
+  padding: 2px;
+  color: #fff;
+  background: #f76120;
+}
+.star-out{
+  background: url("../imges/d2.png");
+  width: 60px;
+  height: 12px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.star-in{
+  background: url("../imges/d1.png");
+  width: 48px;  /*修改此处可以修改星星分数*/
+  height: 12px;
+  display: inline-block;
+}
+.mtop{
+  height: 50px;
+  background: #06C1AE;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.ftop{
+  height: 50px;
+  background: #06C1AE;
+  border: 1px solid #ddd;
+}
+.mtop h2{
+  color: #fff;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.famous{
+  height: 400px;
+  margin-top: -2px;
+  border: 1px solid #ddd;
+  border-radius:15px;
+}
+.famous img{
+  height: 296px;
+  width: 213x;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.ftop h2{
+  color: #fff;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.fatop{
+  height: 35px;
+  background: #08C1AE;
+  border: 1px solid #08C1AE;
+}

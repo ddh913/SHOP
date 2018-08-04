@@ -1,0 +1,63 @@
+/* 公用样式 */
+.topbox{
+  background: #f0f0Ed;
+  height: 40px;
+  padding: 5px;
+}
+.sec1170{
+  width: 1170px;
+  margin: 0 auto;
+}
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.c-orange{
+  color:#f76120;
+}
+.c-blue{
+  color:#2bb8aa;
+}
+.c-dgray{
+  color:#333;
+}
+.c-gray{
+  color:#666;
+}
+.c-lgray{
+  color:#999;
+}
+/*项目中字体大小*/
+.fs-10{
+  font-size: 10px;
+}
+.fs-12{
+  font-size: 12px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-16{
+  font-size: 16px;
+}
+.t-lt{
+  text-decoration: line-through;
+}
+a{
+  color:#666;
+  text-decoration: none;
+}
+a:hover{
+  color:#2bb8aa;
+}
+.mr10{
+  margin-right: 10px;
+}
+.mb10{
+  margin-bottom: 10px;
+}
+.sty {
+  background: #f8f8f8;
+}
